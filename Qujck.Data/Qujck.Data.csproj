@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Qujck.Core">
+      <HintPath>..\packages\Qujck.Core.1.0.0.18\lib\net452\Qujck.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,7 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\DataCommandHandlerEventDecorator.cs" />
+    <Compile Include="Commands\IDataCommand.cs" />
+    <Compile Include="Commands\IDataCommandHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\IDataQuery.cs" />
+    <Compile Include="Queries\IDataQueryHandler.cs" />
+    <Compile Include="Queries\DataQueryHandlerEventDecorator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
