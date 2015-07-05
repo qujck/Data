@@ -84,6 +84,6 @@
     <Build Include="Foundation\Tables\Entity.sql" />
     <Build Include="Foundation\Tables\DataType.sql" />
     <Build Include="Security\Foundation.sql" />
-    <Build Include="Foundation\Data\1.0.0.sql" />
+    <None Include="Foundation\Data\1.0.0.sql" />
   </ItemGroup>
 </Project>
