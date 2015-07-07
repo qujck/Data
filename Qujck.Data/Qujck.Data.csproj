@@ -46,6 +46,26 @@
     <Compile Include="Commands\DataCommandHandlerEventDecorator.cs" />
     <Compile Include="Commands\IDataCommand.cs" />
     <Compile Include="Commands\IDataCommandHandler.cs" />
+    <Compile Include="Model\DataType.cs" />
+    <Compile Include="Model\Entity.cs" />
+    <Compile Include="Model\EntityDetail.cs" />
+    <Compile Include="Model\EntityType.cs" />
+    <Compile Include="Model\Enumerator.cs" />
+    <Compile Include="Model\Ind.cs" />
+    <Compile Include="Model\Index.cs" />
+    <Compile Include="Model\IndexDetail.cs" />
+    <Compile Include="Model\IndexType.cs" />
+    <Compile Include="Model\Multiplicity.cs" />
+    <Compile Include="Model\Relationship.cs" />
+    <Compile Include="Model\RelationshipDetail.cs" />
+    <Compile Include="Model\RelationshipType.cs" />
+    <Compile Include="Model\Sql.cs" />
+    <Compile Include="Model\SqlResultType.cs" />
+    <Compile Include="Model\SqlType.cs" />
+    <Compile Include="Model\View.cs" />
+    <Compile Include="Model\ViewDetail.cs" />
+    <Compile Include="Model\ViewJoin.cs" />
+    <Compile Include="Model\ViewType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queries\IDataQuery.cs" />
     <Compile Include="Queries\IDataQueryHandler.cs" />
@@ -54,6 +74,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
